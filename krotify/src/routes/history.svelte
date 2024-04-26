@@ -1,5 +1,6 @@
+<div class="all">
 <section class="history">
-    <p>How were we created?</p>    
+    <p style="color: #009CFF;">How were we created?</p>    
     <h1>Our history!</h1>
 </section>
 
@@ -37,10 +38,12 @@
         </div>
     </div>
 </div>
+<br>
+</div>
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
+    .all{
+        background-color: #F3F8FF;
     }
     .timeline {
         max-width: 800px;
@@ -85,7 +88,9 @@
     
     .history {
         text-align: center;
-        margin-top: 100px;
+        padding-top: 100px;
+        
+        
     }
     .history h1 {
         font-size: 3.5em;

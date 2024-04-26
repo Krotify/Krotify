@@ -1,6 +1,5 @@
-<!-- src/components/Navbar.svelte -->
 <script>
-    // You can define component-specific logic here
+    let currentLang = "eng"
 </script>
 
 <nav class="navbar">
@@ -12,6 +11,7 @@
         <a href="/syllabus">Research</a>
         <a href="/newsletter">Newsletter</a>
         <a href="/contact">Contact</a>
+        <button><i class="fa fa-globe" aria-hidden="true"></i> Indonesia</button>
     </div>
 </nav>
 
@@ -27,6 +27,16 @@
     }
     .navbar a {
         color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: 600;
+    }
+    .navbar button {
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        border: none;
+        padding: 5px 10px;
         text-decoration: none;
         margin: 0 10px;
         font-weight: 600;
