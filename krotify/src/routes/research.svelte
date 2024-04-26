@@ -10,7 +10,7 @@
     ]
 </script>
 <section class="about">
-    <p>Latest research and syllabus.</p>    
+    <p style="color: #009CFF;">Latest research and syllabus.</p>    
     <h1>From us, free for us!</h1>
 </section>
     <div style="padding: 50px;">
@@ -20,7 +20,7 @@
                     <h2>{item.name}</h2>
                     <span class="type">{item.tag}</span>
                     <p>{item.desc}</p>
-                    <a href="{item.link}" class="type">Link</a>
+                    <a href="{item.link}" class="btn">Learn More</a>
                 </div>
             {/each}
         </div>
@@ -30,6 +30,13 @@
     .type {
         padding: 5px 10px;
         background-color: white;
+        border-radius: 5px;
+    }
+    .btn {
+        padding: 5px 10px;
+        background-color: rgb(33, 33, 33);
+        text-decoration: none;
+        color: white;
         border-radius: 5px;
     }
     .about {

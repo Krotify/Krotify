@@ -1,5 +1,5 @@
 <section class="about">
-    <p>What do we do?</p>    
+    <p style="color: #009CFF;">What do we do?</p>    
     <h1>Building values!</h1>
     <div class="inner">
         <span class="label">
@@ -23,6 +23,7 @@
     </div>
 </section>
 
+
 <style>
     .label {
         display: inline-block;
@@ -31,7 +32,8 @@
         padding: 10px;
         border-radius: 10px;
         text-align: center;
-        background-color: #c9c9c9;
+        background-color: #009CFF;
+        color: white;
     }
     .inner {
         text-align: left;
@@ -40,7 +42,8 @@
     }
     .about {
         text-align: center;
-        margin-top: 100px;
+        padding: 100px;
+        background-color: #F3F8FF;
     }
     .about h1 {
         font-size: 3.5em;

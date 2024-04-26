@@ -4,8 +4,8 @@
 </script>
 
 <section class="hero">
-    <h1>Digitalize<br>Your Business</h1>
-    <p>Level up your business by digitalized your business with us!</p>
+    <h1>Digitalize<br>Your Actions!</h1>
+    <p>Level up your knowledge, business, and anything else by digitalized your business with us!</p>
     <button on:click={() => console.log('Learn more clicked')}>Learn More</button>
 </section>
 
