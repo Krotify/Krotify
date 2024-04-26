@@ -12,7 +12,7 @@
 <style>
     .hero {
         padding: 0px 50px;
-        padding-bottom: 80px;
+        padding-bottom: 95px;
         text-align: left;
         color: white;
         background-color: #009CFF;
